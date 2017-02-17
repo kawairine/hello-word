@@ -1,2 +1,1 @@
-# hello-word
-test
+Kitchen is my second bedroom
