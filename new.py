@@ -13,6 +13,11 @@ for line in openfile:
     if "observed" in low:
         fea.append((next(openfile).lower().rstrip('\n')))
 
+idlist=
+for i in range(0, len(openfile), 5):
+    idlist.append(openfile[i].rstrip('\n'))
+    seqlist.append(openfile[i+1].rstrip('\n'))
+
 ### residues with zero
 seqindividuallist=[]
 for seq in seqlist:
@@ -176,20 +181,94 @@ for j in one_fea_test:
         fea_test_set.append(fea_test)
 
 
+fea_test_setarray=[]
+for x in fea_test_set:
+    arrayfea=np.array(x)
+    fea_test_setarray.append(arrayfea)
+
+
+
+# print(fea_test_setarray[0:3])
+# print(len(fea_test_setarray))
+# print(len(arraytest_list))
+# print(fea_test_setarray[0])
+# print(arraytest_list[0])
 # ##################SVM
 
+testarrayseq=arraytrain_list[0:3]
+testarrayfea=fea_train_set[0:3]
+testlistt=arraytest_list[0:3]
+fea_test_setarraytest=fea_test_setarray[0:3]
 predictionlist=[]
-clf=svm.SVC()
-for i in range(0,len(arraytrain_list)):
+truelist = []
+clf=svm.LinearSVC(class_weight="balanced")
+for i in range(0,len(testarrayseq)):
     clf.fit(arraytrain_list[i],fea_train_set[i])
-    predictresult=clf.predict(arraytest_list[i])
-    predictionlist.append(predictresult)
+    predictresult=list(clf.predict(arraytest_list[i]))
+    # predictionlist.append(predictresult)
+    predictionlist.extend(predictresult)
+    truelist.extend(fea_test_set[i])
+    # accuracy average
+    # -> whole set -> confusion matrix
 
-print(predictionlist)
+# print (truelist)
+# print (predictionlist)
+# print(predictionlist[0])
+# predictionlistarray=np.array(predictionlist)
+# print(predictionlistflatten)
+# print(predictionlistflatten[0])
+# testfeatrue=fea_test_setarray[0:3]
+# print(testfeatrue)
+# print(testfeatrue[0])
+# print(predictionlistarray)
+# print(len(predictionlistarray))
+# print(type(predictionlistarray))
+
+# print(fea_test_setarray[0:3])
+# print(len(fea_test_setarray[0:3]))
+# print(type(fea_test_setarray))
+
+import itertools
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+def plot_confusion_matrix(cm, classes,
+                          normalize=True,
+                          title='Confusion matrix',
+                          cmap=plt.cm.Blues):
+    plt.imshow(cm, interpolation='nearest', cmap=cmap)
+    plt.title(title)
+    plt.colorbar()
+    tick_marks = np.arange(len(classes))
+    plt.xticks(tick_marks, classes, rotation=45)
+    plt.yticks(tick_marks, classes)
+
+    if normalize:
+        cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+        print("Normalized confusion matrix")
+    else:
+        print('Confusion matrix, without normalization')
+
+    print(cm)
+
+    thresh = cm.max() / 2.
+    for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
+        plt.text(j, i, cm[i, j],
+                 horizontalalignment="center",
+                 color="white" if cm[i, j] > thresh else "black")
+
+    plt.tight_layout()
+    plt.ylabel('True label')
+    plt.xlabel('Predicted label')
+
+# Compute confusion matrix
+codelabel=[0,1,2]
+cnf_matrix = confusion_matrix(truelist, predictionlist,labels=codelabel)
+np.set_printoptions(precision=2)
+
+# Plot normalized confusion matrix
+plt.figure()
+plot_confusion_matrix(cnf_matrix, classes=codelabel, normalize=True,
+                      title='Normalized confusion matrix,window size=3')
 
 
-# clf=svm.SVC()
-# clf.fit(mappedtrifortrainarray,featrain)
-# predictresult=clf.predict(mappedtrifortestarray)
-# probability=clf.predict_proba(predictresult)
-# print(probability)
+plt.show()
