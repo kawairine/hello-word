@@ -25,6 +25,6 @@ echo "Running prediction..."
 
 echo ""
 
-cp input1.py $DIR
+cp linear_svmpredictor.py $DIR
 
-python3 input1.py $FASTA
+python3 linear_svmpredictor.py $FASTA
