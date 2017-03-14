@@ -1,0 +1,127 @@
+Running PSI-BLAST on >A5VZA8_PSEP1_sequence.fasta at Mon Feb 27 16:21:40 CET 2017
+Finished running PSI-BLAST on >A5VZA8_PSEP1_sequence.fasta at Mon Feb 27 16:25:22 CET 2017
+
+Running PSI-BLAST on >AIDA_ECOLX_sequence.fasta at Mon Feb 27 16:25:22 CET 2017
+Finished running PSI-BLAST on >AIDA_ECOLX_sequence.fasta at Mon Feb 27 16:35:59 CET 2017
+
+Running PSI-BLAST on >AMGE_MSEAE_SEQUENCE.fasta at Mon Feb 27 16:35:59 CET 2017
+Finished running PSI-BLAST on >AMGE_MSEAE_SEQUENCE.fasta at Mon Feb 27 16:38:47 CET 2017
+
+Running PSI-BLAST on >COLY_YERPE_sequence.fasta at Mon Feb 27 16:38:47 CET 2017
+Finished running PSI-BLAST on >COLY_YERPE_sequence.fasta at Mon Feb 27 16:40:52 CET 2017
+
+Running PSI-BLAST on >ESPP_ECO57_sequence.fasta at Mon Feb 27 16:40:52 CET 2017
+Finished running PSI-BLAST on >ESPP_ECO57_sequence.fasta at Mon Feb 27 16:46:44 CET 2017
+
+Running PSI-BLAST on >ESTA_PSEAE_sequence.fasta at Mon Feb 27 16:46:44 CET 2017
+Finished running PSI-BLAST on >ESTA_PSEAE_sequence.fasta at Mon Feb 27 16:50:29 CET 2017
+
+Running PSI-BLAST on >F0QP73_ACIBD_sequence.fasta at Mon Feb 27 16:50:29 CET 2017
+Finished running PSI-BLAST on >F0QP73_ACIBD_sequence.fasta at Mon Feb 27 16:52:21 CET 2017
+
+Running PSI-BLAST on >FECA_ECOMI_SEQUENCE.fasta at Mon Feb 27 16:52:21 CET 2017
+Finished running PSI-BLAST on >FECA_ECOMI_SEQUENCE.fasta at Mon Feb 27 16:57:53 CET 2017
+
+Running PSI-BLAST on >FEPA_ECOLI_sequence.fasta at Mon Feb 27 16:57:53 CET 2017
+Finished running PSI-BLAST on >FEPA_ECOLI_sequence.fasta at Mon Feb 27 17:03:28 CET 2017
+
+Running PSI-BLAST on >FHAC_BORPE_sequence.fasta at Mon Feb 27 17:03:28 CET 2017
+Finished running PSI-BLAST on >FHAC_BORPE_sequence.fasta at Mon Feb 27 17:09:35 CET 2017
+
+Running PSI-BLAST on >FIMD_ECOLI_sequence.fasta at Mon Feb 27 17:09:35 CET 2017
+Finished running PSI-BLAST on >FIMD_ECOLI_sequence.fasta at Mon Feb 27 17:17:30 CET 2017
+
+Running PSI-BLAST on >FPVA_PSEAE_sequence.fasta at Mon Feb 27 17:17:30 CET 2017
+Finished running PSI-BLAST on >FPVA_PSEAE_sequence.fasta at Mon Feb 27 17:24:52 CET 2017
+
+Running PSI-BLAST on >INVA_YERMS_SEQUENCE.fasta at Mon Feb 27 17:24:52 CET 2017
+Finished running PSI-BLAST on >INVA_YERMS_SEQUENCE.fasta at Mon Feb 27 17:31:13 CET 2017
+
+Running PSI-BLAST on >LAMB_SALTY_sequence.fasta at Mon Feb 27 17:31:13 CET 2017
+Finished running PSI-BLAST on >LAMB_SALTY_sequence.fasta at Mon Feb 27 17:34:04 CET 2017
+
+Running PSI-BLAST on >LPTD_SHIFL_sequence.fasta at Mon Feb 27 17:34:04 CET 2017
+Finished running PSI-BLAST on >LPTD_SHIFL_sequence.fasta at Mon Feb 27 17:39:57 CET 2017
+
+Running PSI-BLAST on >M4GGR4_NEIME_SEQUENCE.fasta at Mon Feb 27 17:39:57 CET 2017
+Finished running PSI-BLAST on >M4GGR4_NEIME_SEQUENCE.fasta at Mon Feb 27 17:42:55 CET 2017
+
+Running PSI-BLAST on >MAGM_ECOMI_SEQUENCE.fasta at Mon Feb 27 17:42:55 CET 2017
+Finished running PSI-BLAST on >MAGM_ECOMI_SEQUENCE.fasta at Mon Feb 27 17:44:41 CET 2017
+
+Running PSI-BLAST on >OMAH_NEIGO_SEQUENCE.fasta at Mon Feb 27 17:44:41 CET 2017
+Finished running PSI-BLAST on >OMAH_NEIGO_SEQUENCE.fasta at Mon Feb 27 17:46:15 CET 2017
+
+Running PSI-BLAST on >OMMA_KMEMN_SEQUENCE.fasta at Mon Feb 27 17:46:15 CET 2017
+Finished running PSI-BLAST on >OMMA_KMEMN_SEQUENCE.fasta at Mon Feb 27 17:49:01 CET 2017
+
+Running PSI-BLAST on >OMMG_ECOMI_SEQUENCE.fasta at Mon Feb 27 17:49:01 CET 2017
+Finished running PSI-BLAST on >OMMG_ECOMI_SEQUENCE.fasta at Mon Feb 27 17:51:06 CET 2017
+
+Running PSI-BLAST on >OMPF_ECOLI_sequence.fasta at Mon Feb 27 17:51:06 CET 2017
+Finished running PSI-BLAST on >OMPF_ECOLI_sequence.fasta at Mon Feb 27 17:54:04 CET 2017
+
+Running PSI-BLAST on >PA1_ECOLI_sequence.fasta at Mon Feb 27 17:54:04 CET 2017
+Finished running PSI-BLAST on >PA1_ECOLI_sequence.fasta at Mon Feb 27 17:56:45 CET 2017
+
+Running PSI-BLAST on >PAGL_PSEAE_sequence.fasta at Mon Feb 27 17:56:45 CET 2017
+Finished running PSI-BLAST on >PAGL_PSEAE_sequence.fasta at Mon Feb 27 17:58:26 CET 2017
+
+Running PSI-BLAST on >PORI_RHOBL_sequence.fasta at Mon Feb 27 17:58:26 CET 2017
+Finished running PSI-BLAST on >PORI_RHOBL_sequence.fasta at Mon Feb 27 18:00:50 CET 2017
+
+Running PSI-BLAST on >PORP_PSEAE_sequence.fasta at Mon Feb 27 18:00:50 CET 2017
+Finished running PSI-BLAST on >PORP_PSEAE_sequence.fasta at Mon Feb 27 18:04:00 CET 2017
+
+Running PSI-BLAST on >Q51162_NEIME_sequence.fasta at Mon Feb 27 18:04:00 CET 2017
+Finished running PSI-BLAST on >Q51162_NEIME_sequence.fasta at Mon Feb 27 18:08:43 CET 2017
+
+Running PSI-BLAST on >Q51227_NEIME_SEQUENCE.fasta at Mon Feb 27 18:08:43 CET 2017
+Finished running PSI-BLAST on >Q51227_NEIME_SEQUENCE.fasta at Mon Feb 27 18:10:07 CET 2017
+
+Running PSI-BLAST on >Q51486_PSEAI_sequence.fasta at Mon Feb 27 18:10:07 CET 2017
+Finished running PSI-BLAST on >Q51486_PSEAI_sequence.fasta at Mon Feb 27 18:11:40 CET 2017
+
+Running PSI-BLAST on >Q5F5W8_NEIG1_sequence.fasta at Mon Feb 27 18:11:40 CET 2017
+Finished running PSI-BLAST on >Q5F5W8_NEIG1_sequence.fasta at Mon Feb 27 18:19:01 CET 2017
+
+Running PSI-BLAST on >Q72JD8_THET2_SEQUENCE.fasta at Mon Feb 27 18:19:01 CET 2017
+Finished running PSI-BLAST on >Q72JD8_THET2_SEQUENCE.fasta at Mon Feb 27 18:20:42 CET 2017
+
+Running PSI-BLAST on >Q79AD2_SERMA_sequence.fasta at Mon Feb 27 18:20:42 CET 2017
+Finished running PSI-BLAST on >Q79AD2_SERMA_sequence.fasta at Mon Feb 27 18:26:29 CET 2017
+
+Running PSI-BLAST on >Q8D0Z7_YERME_SEQUENCE.fasta at Mon Feb 27 18:26:29 CET 2017
+Finished running PSI-BLAST on >Q8D0Z7_YERME_SEQUENCE.fasta at Mon Feb 27 18:28:00 CET 2017
+
+Running PSI-BLAST on >Q8GKS5_NEIME_SEQUENCE.fasta at Mon Feb 27 18:28:00 CET 2017
+Finished running PSI-BLAST on >Q8GKS5_NEIME_SEQUENCE.fasta at Mon Feb 27 18:34:50 CET 2017
+
+Running PSI-BLAST on >Q8GNN6_ECOLX_sequence.fasta at Mon Feb 27 18:34:50 CET 2017
+Finished running PSI-BLAST on >Q8GNN6_ECOLX_sequence.fasta at Mon Feb 27 18:37:32 CET 2017
+
+Running PSI-BLAST on >Q8ZMT3_SAMTY_SEQUENCE.fasta at Mon Feb 27 18:37:32 CET 2017
+Finished running PSI-BLAST on >Q8ZMT3_SAMTY_SEQUENCE.fasta at Mon Feb 27 18:39:44 CET 2017
+
+Running PSI-BLAST on >Q9HVJ6_PSEAE_sequence.fasta at Mon Feb 27 18:39:44 CET 2017
+Finished running PSI-BLAST on >Q9HVJ6_PSEAE_sequence.fasta at Mon Feb 27 18:44:11 CET 2017
+
+Running PSI-BLAST on >Q9HVS0_PSEAE_sequence.fasta at Mon Feb 27 18:44:11 CET 2017
+Finished running PSI-BLAST on >Q9HVS0_PSEAE_sequence.fasta at Mon Feb 27 18:48:36 CET 2017
+
+Running PSI-BLAST on >Q9HWW1_PSEAE_sequence.fasta at Mon Feb 27 18:48:36 CET 2017
+Finished running PSI-BLAST on >Q9HWW1_PSEAE_sequence.fasta at Mon Feb 27 18:50:56 CET 2017
+
+Running PSI-BLAST on >TAMA_ECOLI_sequence.fasta at Mon Feb 27 18:50:56 CET 2017
+Finished running PSI-BLAST on >TAMA_ECOLI_sequence.fasta at Mon Feb 27 18:55:51 CET 2017
+
+Running PSI-BLAST on >TBP1_NEIMB_sequence.fasta at Mon Feb 27 18:55:51 CET 2017
+Finished running PSI-BLAST on >TBP1_NEIMB_sequence.fasta at Mon Feb 27 19:00:46 CET 2017
+
+Running PSI-BLAST on >TSX_ECOMI_SEQUENCE.fasta at Mon Feb 27 19:00:46 CET 2017
+Finished running PSI-BLAST on >TSX_ECOMI_SEQUENCE.fasta at Mon Feb 27 19:02:56 CET 2017
+
+Running PSI-BLAST on >VDAC1_MOUSE_sequence.fasta at Mon Feb 27 19:02:56 CET 2017
+Finished running PSI-BLAST on >VDAC1_MOUSE_sequence.fasta at Mon Feb 27 19:05:05 CET 2017
+
+Job done.
