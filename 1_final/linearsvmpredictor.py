@@ -68,7 +68,7 @@ for i in range(0,len(PSIfreqfloat)):
 
 from sklearn.externals import joblib
 from sklearn import svm
-clf=joblib.load('svmpredictor.pkl')
+clf=joblib.load('linear_svmpredictor.pkl')
 pred=clf.predict(eachproteintest)
 predictionresult=list(pred)
 dicfeastates={0:"i",1:"o",2:"m"}
